@@ -1,0 +1,31 @@
+activity_name,description,format,time_of_day,min_spend
+Chopped Kitchen Challenge,Each person secretly picks 3 random ingredients from the kitchen — the other has to cook a full dish using all of them — judge on taste and creativity,Simultaneous,Evening,0
+Alphabet Walk,Walk the neighborhood and find something that starts with each letter of the alphabet before getting back — first to complete it wins,Simultaneous,Daytime,0
+Midnight Explore Walk,Pick a direction and walk with no destination — take turns deciding at every intersection — no phones for navigation,Simultaneous,Night,0
+Cocktail Invention Contest,Both invent a completely original cocktail using only what is in the apartment — name it and pitch it like you are on Shark Tank,Simultaneous,Evening,0
+Neighborhood Basketball,Find an outdoor court and run a first to 21 — make it competitive with actual rules and trash talk required,Simultaneous,Daytime,0
+Tech Build Sprint,Both have one hour to build or prototype the most interesting thing you can using free tools — Claude / no-code / whatever you have,Simultaneous,All Day,0
+AI Jailbreak Battle,Both try to get Claude to do something it shouldn't within the same constraint — most impressive result wins,Simultaneous,All Day,0
+Puzzle Race,Both do the same online logic puzzle or cipher simultaneously — no hints — first correct solution wins,Simultaneous,All Day,0
+Sauce Invention Challenge,Both invent a sauce or condiment from scratch using only pantry items — taste test and rate each other's on 5 categories,Simultaneous,Evening,0
+Trick Shot Tournament,Grab any ball and set up increasingly hard trick shots around the apartment or outside — each person gets 3 attempts per shot,Simultaneous,All Day,0
+Park Pickup Basketball,Find a court and run full games or 21 against whoever is there,Simultaneous,Daytime,0
+Scavenger Hunt Architect,One person has 10 minutes to hide 10 items and write clues — other person solves it against the clock — then swap,Async/Compare,All Day,0
+Wikipedia Speedrun,Both start on the same random article and race to reach a predetermined target article using only internal links,Simultaneous,All Day,0
+Frisbee Distance Challenge,Take a frisbee to a field and compete on distance accuracy and trick throws — invent your own scoring system,Simultaneous,Daytime,0
+Recipe Reverse Engineering,Both eat a small amount of something in the fridge and try to reverse engineer the full recipe from scratch — cook it and compare,Simultaneous,Evening,0
+Backyard Astronomy,Lay outside with a free stargazing app and compete to identify the most constellations and objects before going in,Simultaneous,Night,0
+Blindfolded Taste Test,One person prepares 10 small tastes of increasingly weird pantry combinations — the other guesses every ingredient blindfolded,Async/Compare,All Day,0
+Pool or Ping Pong Tournament,Run a proper tournament bracket with rules — best of 7 series per match — make it feel official,Simultaneous,All Day,0
+Knife Skills Race,Both prep the same set of vegetables as fast as possible — judge on speed and quality of cuts,Simultaneous,Evening,0
+LeetCode Race,Both attempt the same medium difficulty coding problem simultaneously — first accepted solution wins — loser buys next round,Simultaneous,All Day,0
+Fermentation or Hot Sauce Project,Start a homemade hot sauce or fermentation project together — research the method and begin the build,Simultaneous,All Day,0
+Outdoor Disc Golf Invented Course,Map out a 9-hole disc golf course through the neighborhood using trees lamp posts and benches as targets,Simultaneous,Daytime,0
+Card Game Tournament,Run a multi-game card tournament — Cribbage / Rummy / Spades — keep a running score across the night,Simultaneous,Night,0
+Midnight Cooking Show,Film yourselves making a ridiculous late night dish like you are hosting a cooking show — full commentary and presentation,Simultaneous,Night,0
+Build Something Challenge,Both have one hour and access to whatever is in the apartment to build the most functional or impressive physical object you can,Simultaneous,All Day,0
+Pitch a Startup,Both have 15 minutes to prepare a full startup pitch — problem solution market size go to market — present to each other and grill with questions,Simultaneous,All Day,0
+Solve a Cipher Together,Pull up a complex cipher or ARG puzzle online and race to crack it together against a timer,Simultaneous,All Day,0
+Corn Hole or Ladder Toss,Set up a backyard toss game and run a proper tournament — first to 21 — no mercy rule,Simultaneous,Daytime,0
+Photo Walk Challenge,Both go on a walk with the same list of 10 abstract prompts to photograph — loneliness / power / chaos etc — judge each other's interpretations,Async/Compare,Daytime,0
+Hot Sauce Tier List,Pull every hot sauce and condiment out of the fridge and build a definitive collaborative tier list — argue every placement,Simultaneous,All Day,0

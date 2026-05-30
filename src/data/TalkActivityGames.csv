@@ -1,0 +1,21 @@
+game_name,description,format,platform
+GeoGuessr Duel,Compete head to head on the same GeoGuessr challenge — use actual geography knowledge and map reading to beat each other,Simultaneous,Browser (geoguessr.com)
+Spyfall Online,One person is the spy and doesn't know the location — interrogate each other without exposing the answer,Simultaneous,Browser (spyfall.app)
+Wikipedia Speedrun,Both start on the same random Wikipedia page and race to reach a target article using only internal links — first one there wins,Simultaneous,Browser
+Codenames Duet,Cooperative word association puzzle game — give one word clues to get your partner to guess the right words without hitting the assassin,Simultaneous,Browser (codenames.game)
+Worldle,Guess the country by its silhouette — both play the same daily puzzle and compare attempts,Async/Compare,Browser (worldle.teuteuf.fr)
+Immaculate Grid (Baseball),Fill a 3x3 grid where each player must satisfy two criteria simultaneously — deep sports knowledge required,Async/Compare,Browser (immaculategrid.com)
+Chess Blitz,Play 3-minute blitz chess against each other — best of 5 series,Simultaneous,Browser (chess.com or lichess.org)
+TypeRacer Private Race,Race each other typing the same passage — pure speed and accuracy,Simultaneous,Browser (typeracer.com)
+skribbl.io Private Room,Private drawing and guessing game — make increasingly obscure or technical prompts for each other,Simultaneous,Browser (skribbl.io)
+Gartic Phone,Telephone drawing game — start with a technical or absurd prompt and watch it deteriorate through drawing and guessing,Simultaneous,Browser (garticphone.com)
+Jackbox Quiplash,Fill-in-the-blank party game where you write the funniest answer — extremely good with two people who have dark humor,Simultaneous,Steam or Console
+Higher or Lower,Guess whether the next item has more or less Google searches than the current one — gets surprisingly hard fast,Simultaneous,Browser (higherlower.com)
+20 Questions Hardmode,One person thinks of something extremely niche or technical — the other gets only 15 yes/no questions,Either,In-person or FaceTime
+Connections (NYT),Both solve the same NYT Connections puzzle independently then compare reasoning and groupings,Async/Compare,Browser (nytimes.com)
+Two Truths and a Lie: Unhinged Edition,Both come up with two true stories and one lie — but all three have to sound equally insane,Either,In-person or FaceTime
+Squaredle,Daily word puzzle where you connect adjacent letters — both attempt and compare scores,Async/Compare,Browser (squaredle.app)
+Nerdle,Guess the hidden math equation — like Wordle but with numbers and operators,Async/Compare,Browser (nerdlegame.com)
+The Price is Right: Amazon Edition,Pull up random obscure Amazon products and both guess the price — closest without going over scores a point,Either,In-person or FaceTime
+Escape Room Online,Both do the same free browser-based escape room simultaneously and race to finish,Simultaneous,Browser (various free sites)
+AI Prompt Battle,Both write a prompt trying to get Claude to produce the funniest or most unhinged output within the same constraint — judge each other,Simultaneous,Browser (claude.ai)

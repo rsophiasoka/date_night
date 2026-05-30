@@ -1,0 +1,26 @@
+activity_name,description,format,time_of_day,min_spend
+City Basketball Hunt,Both find an outdoor court near you and shoot for a set amount of time — track stats like threes made and report back,Async/Compare,Daytime,0
+GeoGuessr City Challenge,Both do the same GeoGuessr city streak simultaneously — compete for highest streak,Simultaneous,All Day,0
+Solve the Same Puzzle Race,Both pull up the same online logic puzzle or escape room and race to finish — no hints allowed,Simultaneous,All Day,0
+Find the Weirdest Thing Challenge,Both have one hour to find and photograph the single weirdest or most out-of-place thing in your neighborhood,Async/Compare,Daytime,0
+Cook the Same Recipe Blind,Both agree on a dish but neither looks up a recipe — cook it from memory and compare photos of the results,Async/Compare,Evening,0
+Longest Keepie Uppie,Both grab a ball and count how many times you can juggle it without it hitting the ground — running total updated live,Async/Compare,Daytime,0
+AI Prompt Engineering Duel,Both spend 20 minutes trying to get Claude to produce the most impressive or unexpected output with the same starting constraint — judge each other,Simultaneous,All Day,0
+Midnight Food Creation,Both cook something creative with only what is in your respective kitchens right now — no grocery runs — reveal over FaceTime,Simultaneous,Night,0
+Highest Point Race,Both race to reach the highest accessible point near you — first to send a photo from the top wins,Simultaneous,Daytime,0
+Sport Trick Shot Battle,Both go find a hoop wall or open space and film your best trick shot — submit three attempts and judge,Async/Compare,Daytime,0
+Local Skate or Bike Explore,Both grab a board or bike and explore somewhere you haven't been in your city — share best find,Async/Compare,Daytime,0
+Same Cocktail Different Ingredients,Both make a cocktail using only what you have at home — same name drink but interpreted differently — taste test and compare,Simultaneous,Evening,0
+Wikipedia Rabbit Hole Race,Both start on the same article and have 15 minutes to end up on the most insane or unrelated article possible using only links,Simultaneous,All Day,0
+Solve a LeetCode Problem Race,Both attempt the same medium LeetCode problem simultaneously — first correct solution wins,Simultaneous,All Day,0
+Tallest Freestanding Build,Both build the tallest freestanding structure you can from household objects in 10 minutes — compare heights over FaceTime,Simultaneous,All Day,0
+Find a Hidden Gem Restaurant,Both have 30 minutes to find the most underrated or obscure local restaurant in your city using only reviews — compare picks,Async/Compare,Evening,0
+Bar Golf,Map out 9 bars in your respective cities and have one drink at each — compare scorecards and bar quality at the end,Simultaneous,Night,20
+Go to a Live Local Event,Both find something happening in your city tonight and go independently — compare experiences after,Async/Compare,Evening,20
+Thrift Something Useful Challenge,Both go to a thrift store with $20 and find the most genuinely useful or impressive thing you can — reveal over FaceTime,Async/Compare,Daytime,20
+Bowling Score War,Both go to a local bowling alley at the same time and FaceTime between frames — compare final scores,Simultaneous,Evening,20
+Pool Hall Shark Night,Both find a local pool hall and play strangers or practice solo — report win/loss record back,Async/Compare,Night,20
+Cooking Class Challenge,Both book the same cheap online cooking class and cook from your separate kitchens — compare plating over FaceTime,Simultaneous,Evening,20
+Axe Throwing,Both find a local axe throwing place and compete remotely — compare scores and film best throws,Simultaneous,Evening,50
+Escape Room Solo Race,Both book a local escape room independently and compare finish times and whether you escaped,Async/Compare,Evening,50
+Go Kart Lap Time Battle,Both find a local go-kart track and race for best lap time — compare results,Async/Compare,Daytime,50

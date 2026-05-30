@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap');
+
+:root {
+  --pink:   #ff6b9d;
+  --orange: #ff9a3c;
+  --yellow: #ffd93d;
+  --green:  #6bcb77;
+  --blue:   #4d96ff;
+  --purple: #c77dff;
+
+  --bg:         #fff9f0;
+  --card-bg:    #ffffff;
+  --text:       #3a2d4e;
+  --text-light: #7a6d8a;
+  --border:     #e8d5f5;
+  --shadow:     4px 4px 0px #3a2d4e;
+
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  /* fun retro dot grid background */
+  background-image: radial-gradient(circle, #d8c4f0 1px, transparent 1px);
+  background-size: 28px 28px;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 20px 60px;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Fredoka', sans-serif;
+  color: var(--text);
+}
+
+h1 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+p {
+  color: var(--text-light);
+  line-height: 1.5;
+}
+
+input[type="text"] {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  padding: 10px 16px;
+  border: 2.5px solid var(--border);
+  border-radius: 12px;
+  outline: none;
+  width: 100%;
+  background: white;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+
+input[type="text"]:focus {
+  border-color: var(--purple);
+}
+
+/* Emoji explosion particles */
+.emoji-particle {
+  position: fixed;
+  font-size: 1.4rem;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  animation: explode 0.7s ease-out forwards;
+  z-index: 9999;
+}
+
+@keyframes explode {
+  0%   { transform: translate(-50%, -50%) translate(0, 0);                   opacity: 1;   scale: 0.5; }
+  60%  { transform: translate(-50%, -50%) translate(var(--tx), var(--ty));   opacity: 1;   scale: 1.2; }
+  100% { transform: translate(-50%, -50%) translate(var(--tx), var(--ty));   opacity: 0;   scale: 0.8; }
+}
