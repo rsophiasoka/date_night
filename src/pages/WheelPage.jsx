@@ -171,7 +171,7 @@ export default function WheelPage({ name, initialItems, onBack }) {
 
   return (
     <div className="wheel-page">
-      <button className="wheel-back" onClick={onBack}>← Back to home</button>
+      <button className="home-button" onClick={onBack}>HOME</button>
 
       <h1 className="wheel-title">{name}&apos;s Wheel 🎡</h1>
 

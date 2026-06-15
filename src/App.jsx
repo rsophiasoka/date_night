@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import { useEmojiExplosion } from './components/EmojiExplosion'
+import HomePage from './pages/HomePage'
 import WheelPage from './pages/WheelPage'
+import WheelPickerPage from './pages/WheelPickerPage'
 import { MAX_ITEMS, SOPHIA_ITEMS } from './data/wheelData'
 import VibeQuestion from './components/VibeQuestion'
 import LocationQuestion from './components/LocationQuestion'
@@ -45,13 +47,17 @@ function App() {
   }
 
   const canGoBack = history.length > 0
-  const [page, setPage] = useState('quiz')
+  const [page, setPage] = useState('home')
 
-  if (page === 'max')    return <WheelPage name="Max"    initialItems={MAX_ITEMS}    onBack={() => setPage('quiz')} />
-  if (page === 'sophia') return <WheelPage name="Sophia" initialItems={SOPHIA_ITEMS} onBack={() => setPage('quiz')} />
+  if (page === 'home')        return <HomePage setPage={setPage} />
+  if (page === 'wheelPicker') return <WheelPickerPage setPage={setPage} />
+  if (page === 'max')         return <WheelPage name="Max"    initialItems={MAX_ITEMS}    onBack={() => setPage('home')} />
+  if (page === 'sophia')      return <WheelPage name="Sophia" initialItems={SOPHIA_ITEMS} onBack={() => setPage('home')} />
 
   return (
     <div className="app">
+      <button className="home-button" onClick={() => setPage('home')}>HOME</button>
+
       <div className="header-emoji"></div>
       <h1>
         <span className="secret-name" onClick={() => setPage('max')}>Max</span>
