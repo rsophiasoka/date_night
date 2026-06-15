@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 
-async function fetchActivities({ city, money, activityType }) {
-  const params = new URLSearchParams({ city, money, activityType })
+async function fetchActivities({ city, money, time, activityType }) {
+  const params = new URLSearchParams({ city, money, time, activityType })
   const res = await fetch(`http://localhost:3001/api/activities?${params}`)
   if (!res.ok) throw new Error('Could not load activities')
   return res.json()
@@ -19,11 +19,12 @@ function PriceyResults({ answers }) {
       const results = await fetchActivities({
         city:         answers.city,
         money:        answers.money,
+        time:         answers.time,
         activityType: answers.activityType,
       })
       setItems(results)
     } catch (e) {
-      setError('Could not load activities. Make sure the server is running.')
+      setError('Could not load suggestions. Make sure the server is running.')
     } finally {
       setLoading(false)
     }
@@ -31,47 +32,40 @@ function PriceyResults({ answers }) {
 
   useEffect(() => { load() }, [])
 
-  if (loading) return <div className="question"><h2>Finding things to do... 🗺️</h2></div>
-  if (error)   return <div className="question"><p>{error}</p></div>
-  if (items.length === 0) return (
+  if (loading) return (
     <div className="question">
-      <h2>Nothing found nearby 😅</h2>
-      <p>Try going back and picking a different activity type or budget.</p>
+      <h2>Claude is thinking... ✨</h2>
+      <p>Finding the perfect activities for your night</p>
+    </div>
+  )
+
+  if (error) return (
+    <div className="question">
+      <h2>Something went wrong 😅</h2>
+      <p>{error}</p>
     </div>
   )
 
   return (
     <div className="question">
-      <h2>Things to do in {answers.city}! 📍</h2>
-      <p>{answers.activityType} · Budget ${answers.money} · {answers.time}</p>
+      <h2>Here's what to do! 🎯</h2>
+      <p>{answers.city} · {answers.time} · ${answers.money} budget</p>
 
-      <div className="yelp-grid">
-        {items.map((biz) => (
-          <a
-            key={biz.id}
-            className="yelp-card"
-            href={biz.url}
-            target="_blank"
-            rel="noreferrer"
-          >
-            {biz.image_url
-              ? <img src={biz.image_url} alt={biz.name} />
-              : <div className="yelp-card-no-image">📍</div>
-            }
-            <div className="yelp-card-info">
-              <div className="yelp-card-name">{biz.name}</div>
-              <div className="yelp-card-meta">
-                ⭐ {biz.rating} &nbsp;·&nbsp; {'$'.repeat(biz.price?.length ?? 1)}
-              </div>
-              <div className="yelp-card-category">
-                {biz.categories?.[0]?.title}
-              </div>
+      <div className="claude-grid">
+        {items.map((item, i) => (
+          <div key={i} className="claude-card">
+            <div className="claude-card-emoji">{item.emoji}</div>
+            <div className="claude-card-body">
+              <div className="claude-card-name">{item.name}</div>
+              <div className="claude-card-desc">{item.description}</div>
+              <div className="claude-card-why">💡 {item.why}</div>
+              <div className="claude-card-cost">{item.cost}</div>
             </div>
-          </a>
+          </div>
         ))}
       </div>
 
-      <button className="regenerate-button" onClick={load}>🎲 Show me 6 more</button>
+      <button className="regenerate-button" onClick={load}>🎲 Give me 6 more ideas</button>
     </div>
   )
 }
